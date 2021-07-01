@@ -1,3 +1,3 @@
-resource "random_pet" "my-pet" {
-  prefix = var.prefix[0]
+resource "aws_s3_bucket" "variable_bucket" {
+  bucket = var.bucket_name
 }
